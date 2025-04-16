@@ -29,4 +29,4 @@ sed -i -e "s/\/root\/.oh-my-zsh/\/home\/$USERNAME\/.oh-my-zsh/g" /home/$USERNAME
 chown -R $USER_UID:$USER_GID /home/$USERNAME/.oh-my-zsh /home/$USERNAME/.zshrc
 
 # install solana
-sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+sh -c "$(curl -sSfL https://release.solana.com/v1.18.25/install)"
